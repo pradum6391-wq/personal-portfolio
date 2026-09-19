@@ -2,14 +2,18 @@
 
 ## Project Overview
 
-This project is a personal portfolio website created using HTML5.
+This project is a personal portfolio website created using HTML5 and CSS3.
 
 The purpose of this portfolio is to showcase my personal information,
-skills, profile picture, social links, and contact details in a simple
-and structured webpage.
+skills, profile picture, social links, and contact details in a simple,
+styled, and responsive webpage.
+
+The project was developed as part of my web development learning and
+internship tasks, covering HTML5 structure and CSS3 styling concepts.
 
 ## Features
 
+- Home section
 - About Me section
 - Skills section
 - Contact form
@@ -18,80 +22,101 @@ and structured webpage.
 - GitHub and LinkedIn links
 - HTML form validation
 - Semantic HTML5 structure
+- External CSS stylesheet
+- Custom Google Font
+- Custom color scheme using CSS variables
+- Responsive navigation
+- Responsive layout for mobile devices
+- Hover effects
+- CSS transitions
+- Hero section animation
+- Image hover effect
+- Form input focus effects
+- Responsive contact form
+- Flexbox layout
+- CSS Grid layout
+- Smooth scrolling
 
 ## Technologies Used
 
 - HTML5
+- CSS3
+- Google Fonts
+- Flexbox
+- CSS Grid
+- CSS Media Queries
+
+## CSS Concepts Used
+
+The website uses an external `style.css` file for styling.
+
+The following CSS concepts are implemented:
+
+- CSS reset
+- CSS variables
+- Element selectors
+- Class selectors
+- ID selectors
+- Pseudo-classes
+- `:hover`
+- `:focus`
+- Flexbox
+- CSS Grid
+- Margin and padding
+- Borders and border-radius
+- Box shadows
+- Transitions
+- Keyframe animation
+- Media queries
+- Responsive design
+- Custom fonts
+- Background and text colors
 
 ## Project Structure
 
+```text
 Personal-Portfolio/
-   index.html
-   README.md
-   images/
-      Profilepic.jpeg
-   screenshots/
-      home.png
-      about.png
-      skill.png
-      contact.png
-## How to Run
-1. Download or clone this repository.
-2. Open the project folder.
-3. Open index.html in any modern web browser.
-4. The portfolio website will be displayed in the browser.
+│
+├── index.html
+├── style.css
+├── README.md
+│
+├── images/
+│   └── Profilepic.jpeg
+│
+└── screenshots/
+    ├── Home.png
+    ├── About.png
+    ├── Skill.png
+    ├── Contact.png
+    ├── MobileRes.png
+    └── TabletRes.png
 
-## Testing
-The website was tested in a web browser to verify:
-- Navigation links work correctly.
-- Internal section links navigate to the correct sections.
-- Profile image is displayed correctly.
-- GitHub and LinkedIn links work correctly.
-- Contact form fields are required.
-- Email field accepts a valid email format.
-- HTML structure was checked for errors.
-
-## Technical Details
-
-### Architecture
-
-This project uses a simple static webpage architecture based on HTML5.
-
-The website is structured using semantic HTML elements such as:
-
-- header
-- nav
-- main
-- section
-- footer
-
-### Algorithms and Data Structures
-
-No specific algorithms or complex data structures are used in this
-project because it is a static HTML website.
-
+```md
 ## Screenshots
 
 Screenshots of the portfolio website are included below as visual documentation of the project.
 
 ### Home Section
 
-![Home Section](screenshots/home.png)
+![Home Section](screenshots/Home.png)
 
 ### About Section
 
-![About Section](screenshots/about.png)
+![About Section](screenshots/About.png)
 
 ### Skills Section
 
-![Skills Section](screenshots/skill.png)
+![Skills Section](screenshots/Skill.png)
 
 ### Contact Section
 
-![Contact Section](screenshots/contact.png)
+![Contact Section](screenshots/Contact.png)
 
-![HTML Validation](screenshots/validation.png)
+### Mobile Responsiveness
 
-### HTML Validation
+![Mobile view](screenshots/MobileRes.png)
 
-The HTML document was validated successfully with no errors or warnings.
+### Tablet Responsiveness
+
+![Tablet view](screenshots/TabletRes.png)
